@@ -5,7 +5,17 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsoLoginTest", "VsoLoginTest_uwp\VsoLoginTest\VsoLoginTest.csproj", "{D83E469F-F34A-4970-8467-EA303A313AAA}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonData", "CommonData\CommonData.shproj", "{D7171664-B5F1-47B3-817D-1D7AF4615A66}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonForms", "CommonForms\CommonForms.shproj", "{DCC61C8A-2046-455F-B3F8-3936E270CB4B}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CommonData\CommonData.projitems*{d83e469f-f34a-4970-8467-ea303a313aaa}*SharedItemsImports = 4
+		CommonForms\CommonForms.projitems*{d83e469f-f34a-4970-8467-ea303a313aaa}*SharedItemsImports = 4
+		CommonForms\CommonForms.projitems*{dcc61c8a-2046-455f-b3f8-3936e270cb4b}*SharedItemsImports = 13
+		CommonData\CommonData.projitems*{d7171664-b5f1-47b3-817d-1d7af4615a66}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
